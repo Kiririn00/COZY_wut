@@ -1,0 +1,59 @@
+#about_us_body1{
+	height: 1345px;
+	background-color: #1e1e1e;
+}
+#about_us_body2{
+	height: 400px;
+}
+#about_us_pic_topic{
+color: #ffffff;
+    width: 400px;
+    font-size: 23px;
+    margin-left: 50px;
+	
+}
+#about_us_block{
+	float: left;
+	width: 460px;
+   
+}
+#about_us_pic_detail {
+    width: 200px;
+  font-size: 14pt;
+  font-family: "Quark";
+  color: rgb(118, 191, 69);
+  font-weight: bold;
+
+  line-height: 1.2;
+margin-left: 50px;
+
+  z-index: 113;
+}
+#about_us_pic_detail_en {
+    width: 400px;
+  font-size: 10pt;
+  font-family: "Quark";
+  color: rgb(118, 191, 69);
+  
+
+  line-height: 1.2;
+
+
+  z-index: 113;
+}
+.about_us_border{
+}
+#about_us_detail_topic{
+
+    width: 400px;
+  font-size:28pt;
+  font-family: "Quark";
+  color: rgb(118, 191, 69);
+  font-weight: bold;
+
+  line-height: 1.2;
+
+}
+#about_us_block{
+
+}

@@ -1,0 +1,290 @@
+@font-face {
+    font-family: Quark;
+    src: url(/COZY_wut/app/webroot/files/Quark-Light.otf);
+}
+
+body{
+	margin: 0;
+	font-family: Quark;
+	color: #b5b5b5;
+}
+
+#menu_text a{
+	color: white;
+	line-height: 0px;
+	font-family: Quark;
+	font-weight: bold;
+	text-decoration: none;
+}
+a{
+	color: #75bf46;
+	line-height: 0px;
+	font-family: Quark;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+form {
+  width: 100%;
+  height: 41px;
+  position: relative;
+  border: 1px solid black;
+  background: white;
+}
+
+#footer_field_text{
+  border: 0;
+  width: 75%;
+  height: 100%;
+  position: absolute;
+  font-size: 17px;
+  background: transparent;
+  margin: 0 .5em 0 0;
+  padding-right: 25%;
+  
+}
+
+#footer_button{
+  background: #75bf46;
+  border: 0;
+  position: absolute;
+  color: white;
+  padding: 10px;
+  height: 34px;
+  margin: 0;
+  right: 4px;
+  top: 4px;
+}
+
+/*Header*/
+#header_bg{
+//position: absolute;
+background: url('/COZY_wut/app/webroot/img/bg.jpg'); 
+height: 745px;
+width: 100%;
+min-width: 960px;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-position: center;
+
+}
+#content_layout{
+width: 960px;
+margin: auto;
+}
+#logo{
+float: left;
+margin-right: 70px;
+}
+#menu_tab{
+float: left;
+}
+#menu_tab_border1{
+width: 617px;
+height: 1px;
+background-color: #3aa9e6;
+}
+#menu_tab_border2{
+width: 617px;
+height: 1px;
+background-color: #66c6f3;
+}
+#menu_tab_text{
+padding-top:46px;
+color: white; 
+}
+#menu_text{
+color: white;
+font-family: Quark;
+font-weight: bold;
+margin-right: 22px;
+font-size: 12pt
+
+}
+#menu_icon{
+width: 20px;
+height: 20px;
+position: absolute;
+margin-left: 895px;
+top: 47px;
+
+}
+#header_topic{
+margin-top: 308px;
+}
+#header_topic_sqare{
+background-color: rgba(0,0,0,0.5);
+width: 390px;
+height: 137px;
+}
+#header_topic_text{
+	color: white;
+	font-family: Quark;
+	font-weight: lighter;
+	font-size: 34pt;
+	float: right;
+	margin-top: 8px;
+}
+#header_button{
+	width: 198px;
+	//height: 44px;
+	background-color: #75bf46;
+	border-radius: 8px;
+	margin-left: 150px;
+	margin-top: 20px;
+	padding-top: 44px;
+}
+#header_button_border{
+	width: 198px;
+	height: 7px;
+	background-color: #68b53c;
+	border-radius: 8px;
+}
+#header_button_text{
+	position: absolute;
+	font-family: Quark;
+	font-weight: lighter;
+	color: #ffffff;
+	margin-top: 169px;
+margin-left: 197px;
+font-size: 16pt;
+}
+
+#header_button_text a{
+color: #ffffff;
+
+}
+#menu_button_tab{
+	margin-top: 83px;
+	height: 83px;
+}
+#menu_button{
+	float: left;
+	height: 77px;
+	width: 240px;
+	background-image: url(/COZY/app/webroot/img/menu1.jpg)
+}
+#menu_button_name{
+	color: white;
+	font-size:31pt;
+	font-weight: lighter;
+	padding-top: 15px;
+	
+
+}
+/*Footer*/
+#footer_border{
+	height: 1px;
+	width: 100%;
+	//min-width: 1240px;
+	background-color: #202020;
+}
+#footer_bg{
+	width: 100%;
+	//min-width: 1240px;
+	height: 256px;
+	background-color: #151515;
+}
+#footer_big_block{
+	//margin-left: 280px;
+	width: 960px;
+	margin: auto
+}
+#footer_block{
+	width: 300px;
+	float: left;
+    padding: 10px;
+   
+}
+#footer_topic{
+	font-family: Quark;
+	font-weight: lighter;
+	margin-top: 10px;
+	color: #798489;
+	font-size: 12pt;
+}
+#footer_detail{
+	font-family: Quark;
+	font-weight: lighter;
+	font-size: 12pt;
+	margin-top: 10px;
+	color: #9fb9c7;
+}
+
+/*for cozy_detail_layout*/
+
+#detail_menu_tab{
+	height: 140px;
+	width: 960px;
+	margin: auto;
+	margin-top: 20px;
+}
+#detail_menu_topic{
+	width: 100%;
+	height: 50px;
+	background-color: rgba(0,0,0,0.8);
+}
+#detail_menu_option{
+	width: 100%;
+	height: 90px;
+	background-color: #010101;
+}
+#detail_text_topic{
+	color: white;
+	font-size: 17pt;
+}
+#detail_icon{
+	padding-left: 20px;
+	padding-top: 5px;
+}
+#detail_option_field{
+	width: 309px;
+padding-top: 23px;
+padding-left: 11px;
+float: left;
+height: 68px;
+}
+.field_color{
+	background-color: #75bf46;
+}
+.option_text_color{
+	color: white;
+}
+#option_icon{
+	float: left;
+	padding-right: 15px;
+}
+#option_detail{
+	font-size: 13pt;
+}
+
+#option_detail a{
+	color: #ffffff;
+}
+
+#footer_detail a{
+color: #798489;
+font-size: 10pt;
+}
+
+#footer_detail a{
+color: #798489;
+font-size: 10pt;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,80 @@
+#detail_body1{
+	background-color: #202020;
+	height: 1236px;
+	width: 100%;
+}
+#detail_border{
+	height: 5px;
+width: 100%;
+background-color: #75bf46;
+}
+#detail_map_field{
+	width: 960px;
+	height: 655px;
+	background-color: #141414;
+}
+.detail_map{
+	padding-top: 40px;
+}
+#detail_map_information{
+	width: 480px;
+	float: left;
+    margin-left: 20px;
+}
+#detail_map_button_field{
+
+height: 60px;
+float: right;
+margin-right: 10px;
+}
+
+#detail_map_button_field a{
+    height: 20px;
+display: inline-flex;
+background-color: #75bf46;
+    color: #ffffff;
+padding-top: 26px;
+    padding-left: 26px;
+    padding-right: 26px;
+float: right;
+margin-right: 10px;
+}
+
+
+#detail_map_button{
+color: white;
+background-color: #76bf45;
+border-radius: 0px;
+border-style: none;
+height: 40px;
+font-size: 12pt;
+}
+
+
+/*detail_detail*/
+#detail_topic{
+	float: left;
+	color: #75bf46;
+	font-size: 18pt
+}
+#detail_block{
+	float: left;
+	width: 400px;
+	padding-left: 50px;
+
+}
+
+.desc_button_field{
+	padding-top: 344px !important;
+}
+
+/* detail image */
+#desc_image{
+	float: left;
+	padding-right: 15px;
+padding-top: 15px;
+
+}
+.detail_image_block{
+padding-top: 15px;
+}

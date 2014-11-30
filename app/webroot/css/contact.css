@@ -1,0 +1,59 @@
+#contact_body1{
+	height: 993px;
+	background-color: #212121;
+	width: 100%
+}
+#contact_block1{
+	width: 480px;
+	background-color: #202020;
+	height: 100%;
+	float: left;
+}
+#contact_block2{
+	width: 480px;
+	background-color: #202020;
+	height: 100%;
+	float: left;
+}
+#contact_topic{
+	font-size: 18pt;
+	padding-left: 5px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+#contact_detail{
+
+}
+#contactform {
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(237, 94, 31);
+  border-radius: 3px;
+  background-color: rgb(255, 255, 255);
+
+
+  width: 298px;
+  height: 36px;
+  z-index: 407;
+}
+
+#content_layout{
+height: 450px;
+
+}
+#send_b{
+
+  border-radius: 3px;
+  background-color: rgb(117, 191, 70);
+
+  width: 300px;
+  height: 47px;
+  z-index: 432;
+color: #ffffff;
+     font-family: "Quark";
+    font-size: 15pt;
+
+}
+#map_body_contact{
+margin-top: 480px;
+}

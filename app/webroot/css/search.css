@@ -1,0 +1,16 @@
+#search_body1{
+	background-color: #202020;
+	height: 1345px; 
+}
+#search_block{
+	height: 206px;
+	padding-top: 10px;
+}
+#search_text_field{
+	float: left;
+	width: 715px;
+}
+#search_img{
+	float: left;
+	padding-right: 25px;
+}
