@@ -37,10 +37,12 @@
   z-index: 407;
 }
 
+/*
 #content_layout{
 height: 450px;
 
 }
+*/
 #send_b{
 
   border-radius: 3px;
@@ -55,5 +57,5 @@ color: #ffffff;
 
 }
 #map_body_contact{
-margin-top: 480px;
+margin-top: 400px;
 }

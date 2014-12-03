@@ -7,7 +7,7 @@
 		<div id="map_body3" class='detail_image_block'>
 			<div id='desc_image'>
 			<?php
-				echo $this->Html->image('detail_image.png',array(
+				echo $this->Html->image('HO/HO1.jpg',array(
 					'width' => 300,
 					'height' => 180
 				));
@@ -15,32 +15,7 @@
 			</div>
 			<div id='desc_image'>
 			<?php
-				echo $this->Html->image('detail_image.png',array(
-					'width' => 300,
-					'height' => 180
-				));
-			 ?>
-			</div>
-
-			<div id='desc_image'>
-			<?php
-				echo $this->Html->image('detail_image.png',array(
-					'width' => 300,
-					'height' => 180
-				));
-			 ?>
-			</div>
-			<div id='desc_image'>
-			<?php
-				echo $this->Html->image('detail_image.png',array(
-					'width' => 300,
-					'height' => 180
-				));
-			 ?>
-			</div>
-			<div id='desc_image'>
-			<?php
-				echo $this->Html->image('detail_image.png',array(
+				echo $this->Html->image('HO/HO5.jpg',array(
 					'width' => 300,
 					'height' => 180
 				));
@@ -49,7 +24,23 @@
 
 			<div id='desc_image'>
 			<?php
-				echo $this->Html->image('detail_image.png',array(
+				echo $this->Html->image('HO/HO10.jpg',array(
+					'width' => 300,
+					'height' => 180
+				));
+			 ?>
+			</div>
+			<div id='desc_image'>
+			<?php
+				echo $this->Html->image('HO/HO15.jpg',array(
+					'width' => 300,
+					'height' => 180
+				));
+			 ?>
+			</div>
+			<div id='desc_image'>
+			<?php
+				echo $this->Html->image('HO/HO20.jpg',array(
 					'width' => 300,
 					'height' => 180
 				));
@@ -58,15 +49,7 @@
 
 			<div id='desc_image'>
 			<?php
-				echo $this->Html->image('detail_image.png',array(
-					'width' => 300,
-					'height' => 180
-				));
-			 ?>
-			</div>
-			<div id='desc_image'>
-			<?php
-				echo $this->Html->image('detail_image.png',array(
+				echo $this->Html->image('HO/HO2.jpg',array(
 					'width' => 300,
 					'height' => 180
 				));
@@ -75,7 +58,24 @@
 
 			<div id='desc_image'>
 			<?php
-				echo $this->Html->image('detail_image.png',array(
+				echo $this->Html->image('HO/HO8.jpg',array(
+					'width' => 300,
+					'height' => 180
+				));
+			 ?>
+			</div>
+			<div id='desc_image'>
+			<?php
+				echo $this->Html->image('HO/HO16.jpg',array(
+					'width' => 300,
+					'height' => 180
+				));
+			 ?>
+			</div>
+
+			<div id='desc_image'>
+			<?php
+				echo $this->Html->image('HO/HO21.jpg',array(
 					'width' => 300,
 					'height' => 180
 				));
@@ -92,63 +92,69 @@
 				<?php echo $this->Html->image('icon.png');?>
 			
 			</div>
-			<div id="topic_body3_text">RELATE PROJECT</div>
+			<div id="topic_body3_text">RELATE PROJECTS</div>
 			<div id="topic_body3_text2">VIEW ALL PRODUCTS .</div>
 	</div>
 
-	<div id="content_body3_field">
-			<div id="content_body3">
-				<?php echo $this->Html->image('project1.jpg');?>
-			<span id="content_topic">
-					CHOKCHAI 4 - 6
+<div id='content_body3_field'>
+			<div id='content_body3'>
+				<?php echo $this->Html->image('project1.jpg'); ?>
+				<span id='content_topic'>
+				COZY @ <br>SATRIWITTHAYA 9
 				</span>
-				<div id="content_border"></div>
-				<div id="content_detail">
-				ลงตัวสำหรับทุกรูปแบบการใช้ชีวิตกับ ที่พักอาศัยสไตล์  COZY   
-				<br><br>
-				ราคาเริ่มต้น 3.5 ล้านบาท
-				<br><br>
+				<div id='content_border'></div>
+				<div id='content_detail'>
+				โฮมออฟฟิศ 3 ชั้น 3 นอน 3 น้ำ			
+				<br/><br/>
+				เริ่มต้น 6.39 ลบ. (4หลัง)
+				<br/><br/>
 				<?php
 					echo $this->Html->link('รายละเอียดโครงการ',array(
-						'action' => 'Detail',
+						'action' => 'DetailDesc',0
 					));
-				?>					</div>
+				?>
+				</div>
 			</div>
-			<div id="content_body3">
-					<?php echo $this->Html->image('project1.jpg');?>
-			<span id="content_topic">
-					CHOKCHAI 4 - 6
+
+	<div id='content_body3'>
+				<?php echo $this->Html->image('home.jpg'); ?>
+				<span id='content_topic'>
+				COZY @ <br/>SATRIWITTHAYA 9  
 				</span>
-				<div id="content_border"></div>
-				<div id="content_detail">
-				ลงตัวสำหรับทุกรูปแบบการใช้ชีวิตกับ ที่พักอาศัยสไตล์  COZY   
-				<br><br>
-				ราคาเริ่มต้น 3.5 ล้านบาท
-				<br><br>
+				<div id='content_border'></div>
+				<div id='content_detail'>
+                    
+				บ้านเดี่ยว 2 ชั้น 3 นอน 3 น้ำ
+				<br/>
+                เริ่มต้น 6.39 ลบ. (2 หลัง) 
+                       <br/>  <br/>
 				<?php
 					echo $this->Html->link('รายละเอียดโครงการ',array(
-						'action' => 'Detail',
+						'action' => 'DetailDesc',10
 					));
-				?>					</div>
+				?>
+				</div>
 			</div>
-			<div id="content_body3">
-				<?php echo $this->Html->image('project1.jpg');?>
-			<span id="content_topic">
-					CHOKCHAI 4 - 6
+		<div id='content_body3'>
+				<?php echo $this->Html->image('home.jpg'); ?>
+				<span id='content_topic'>
+				COZY @ <br>
+                NAKNIWAT 37 1-4
 				</span>
-				<div id="content_border"></div>
-				<div id="content_detail">
-				ลงตัวสำหรับทุกรูปแบบการใช้ชีวิตกับ ที่พักอาศัยสไตล์  COZY   
-				<br><br>
-				ราคาเริ่มต้น 3.5 ล้านบาท
-				<br><br>
+				<div id='content_border'></div>
+				<div id='content_detail'>
+				บ้านเดี่ยว 2 ชั้น 3 นอน 3 น้ำ	
+				<br/><br/>
+				เริ่มต้น 6.39 ลบ.(2 หลัง)
+				<br/><br/>
 				<?php
 					echo $this->Html->link('รายละเอียดโครงการ',array(
-						'action' => 'Detail',
+						'action' => 'DetailDesc',2
 					));
-				?>				
-			</div><!-- end #content_body3 -->
-		</div><!-- end #content_body3_field -->
+				?>
+				</div>
+			</div>
+
 	</div>
  </div><!-- end #content_layout -->
 </div>

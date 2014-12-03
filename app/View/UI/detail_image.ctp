@@ -7,7 +7,7 @@
 		<div id="map_body3" class='detail_image_block'>
 			<div id='desc_image'>
 			<?php
-				echo $this->Html->image('detail_image.png',array(
+				echo $this->Html->image('HO/HO1.jpg',array(
 					'width' => 300,
 					'height' => 180
 				));
@@ -15,7 +15,7 @@
 			</div>
 			<div id='desc_image'>
 			<?php
-				echo $this->Html->image('detail_image.png',array(
+				echo $this->Html->image('HO/HO2.jpg',array(
 					'width' => 300,
 					'height' => 180
 				));
@@ -24,7 +24,7 @@
 
 			<div id='desc_image'>
 			<?php
-				echo $this->Html->image('detail_image.png',array(
+				echo $this->Html->image('HO/HO3.jpg',array(
 					'width' => 300,
 					'height' => 180
 				));
@@ -32,7 +32,7 @@
 			</div>
 			<div id='desc_image'>
 			<?php
-				echo $this->Html->image('detail_image.png',array(
+				echo $this->Html->image('HO/HO4.jpg',array(
 					'width' => 300,
 					'height' => 180
 				));
@@ -40,7 +40,7 @@
 			</div>
 			<div id='desc_image'>
 			<?php
-				echo $this->Html->image('detail_image.png',array(
+				echo $this->Html->image('HO/HO5.jpg',array(
 					'width' => 300,
 					'height' => 180
 				));
@@ -49,7 +49,7 @@
 
 			<div id='desc_image'>
 			<?php
-				echo $this->Html->image('detail_image.png',array(
+				echo $this->Html->image('HO/HO6.jpg',array(
 					'width' => 300,
 					'height' => 180
 				));
@@ -58,7 +58,7 @@
 
 			<div id='desc_image'>
 			<?php
-				echo $this->Html->image('detail_image.png',array(
+				echo $this->Html->image('HO/HO7.jpg',array(
 					'width' => 300,
 					'height' => 180
 				));
@@ -66,21 +66,14 @@
 			</div>
 			<div id='desc_image'>
 			<?php
-				echo $this->Html->image('detail_image.png',array(
+				echo $this->Html->image('HO/HO8.jpg',array(
 					'width' => 300,
 					'height' => 180
 				));
 			 ?>
 			</div>
 
-			<div id='desc_image'>
-			<?php
-				echo $this->Html->image('detail_image.png',array(
-					'width' => 300,
-					'height' => 180
-				));
-			 ?>
-			</div>
+			
 
 
 
@@ -92,15 +85,15 @@
 				<?php echo $this->Html->image('icon.png');?>
 			
 			</div>
-			<div id="topic_body3_text">RELATE PROJECT</div>
+			<div id="topic_body3_text">RELATE PROJECTS</div>
 			<div id="topic_body3_text2">VIEW ALL PRODUCTS .</div>
 	</div>
 
-	<div id="content_body3_field">
+	<div id='content_body3_field'>
 			<div id='content_body3'>
 				<?php echo $this->Html->image('project1.jpg'); ?>
 				<span id='content_topic'>
-				COZY @ SATRIWITTHAYA 2 SOI 9
+				COZY @ <br>SATRIWITTHAYA 9
 				</span>
 				<div id='content_border'></div>
 				<div id='content_detail'>
@@ -115,29 +108,31 @@
 				?>
 				</div>
 			</div>
-		<div id='content_body3'>
-				<?php echo $this->Html->image('project1.jpg'); ?>
+
+	<div id='content_body3'>
+				<?php echo $this->Html->image('home.jpg'); ?>
 				<span id='content_topic'>
-				COZY @ CHOKCHAI 4 <br> SOI 30
+				COZY @ <br/>SATRIWITTHAYA 9  
 				</span>
 				<div id='content_border'></div>
 				<div id='content_detail'>
-				โฮมออฟฟิศ 3 ชั้น 3 นอน 3 น้ำ			
-				<br/><br/>
-				เริ่มต้น 4.39 ลบ. (12 หลัง) 
-				<br/><br/>
+                    
+				บ้านเดี่ยว 2 ชั้น 3 นอน 3 น้ำ
+				<br/>
+                เริ่มต้น 6.39 ลบ. (2 หลัง) 
+                       <br/>  <br/>
 				<?php
 					echo $this->Html->link('รายละเอียดโครงการ',array(
-						'action' => 'DetailDesc',1
+						'action' => 'DetailDesc',10
 					));
 				?>
 				</div>
 			</div>
-
 		<div id='content_body3'>
 				<?php echo $this->Html->image('home.jpg'); ?>
 				<span id='content_topic'>
-				COZY @ NAKNIWAT 37 1-4
+				COZY @ <br>
+                NAKNIWAT 37 1-4
 				</span>
 				<div id='content_border'></div>
 				<div id='content_detail'>

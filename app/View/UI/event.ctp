@@ -8,33 +8,35 @@
 			<div id="icon">
 				<?php echo $this->Html->image('icon.png'); ?>			
 			</div>
-			<div id="topic_body3_text">NEWS & EVENTS</div>
+			<div id="topic_body3_text">NEWS & EVENT</div>
 	</div>
-<div id="event_body">
-	<div id='event_block'>
-			<div id='content_body3'>
-				<?php echo $this->Html->image('event.jpg'); ?>
-				<span id='content_topic'>
-					เคล็ดลับการเก็บเศษกระจกแตกบนพื้นอย่างปลอดภัย
-				</span>
-				<div id='content_border'></div>
-				<div id='content_detail'>
-				ลงตัำหรับทุกรูปแบบการใช้ชีวิตกับ ที่พักอาศัยสไตล์  COZY   
-				<br/><br/>
-				ราคาเริ่มต้น 3.5 ล้านบาท
-				<br/><br/>
-				<?php
-					echo $this->Html->image('read_more.jpg',array(
-						'url' => array('action' => 'Event')
-					))
 
-				?>
-				</div>
-			</div>
-
-	</div>
-	<div id='event_block'>
 <!--
+	<div id='event_block'>
+		<div id='event_pic'>
+			<?php
+				echo $this->Html->image('event_pic1.jpg',array(
+					'url' => array('action' => 'EventDetail')
+				));
+			?>
+		</div>
+		<div id='event_pic'>
+			<?php
+				echo $this->Html->image('event_pic2.jpg',array(
+					'url' => array('action' => 'EventDetail')
+				));
+			?>
+		</div>
+		<div id='event_pic'>
+			<?php
+				echo $this->Html->image('event_pic3.jpg',array(
+					'url' => array('action' => 'EventDetail')
+				));
+			?>
+		</div>
+
+	</div>
+	<div id='event_block'>
 		<div id='event_pic'>
 			<?php
 				echo $this->Html->image('event_pic4.jpg',array(
@@ -63,13 +65,11 @@
 				));
 			?>
 		</div>
--->
 
 
 		
 	</div>
 	<div id='event_block'>
-<!--
 		<div id='event_pic'>
 			<?php
 				echo $this->Html->image('event_pic8.jpg',array(
@@ -98,10 +98,11 @@
 				));
 			?>
 		</div>
--->
 
-	</div><!-- end #event_block -->
-     </div>
+	</div> end #event_block 
+	
+-->
+<!--
 	<div id="load_button_field">
 		<div class="input button"><button id="load_button" type="submit">Loadmore</button></div>	
 	</div>
@@ -118,7 +119,6 @@
 
 	</div>
 
-<!--
 	<div id='content_body3_field2'>
 			<div id='content_tip'>
 				หากเพื่อนๆพบว่าช่วงนี้ทำไมบ้านของเราจึงมีข้าวของ กระจัดกระจายเกะกะไปหมด บรรยากาศซ้ำซากจำเจ ไม่น่าอยู่เอาซะเลย ลองหาเวลาว่างสักนิด เนรมิตบ้านน้อยหลังเดิมให้โปร่งโล่งสบายตา 
@@ -159,9 +159,9 @@
 			?>
 				
 			</div>
-
-		</div> end #content_body3_field2 
 -->
+
+		</div><!-- end #content_body3_field2 -->
 
  </div>
 </div>

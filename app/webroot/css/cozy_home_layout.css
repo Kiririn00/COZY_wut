@@ -1,8 +1,3 @@
-@font-face {
-    font-family: Quark;
-    src: url(/COZY_wut/app/webroot/files/Quark-Light.otf);
-}
-
 body{
 	margin: 0;
 	font-family: Quark;
@@ -17,10 +12,10 @@ body{
 	text-decoration: none;
 }
 a{
-	color: #75bf46;
+	color: white;
 	line-height: 0px;
 	font-family: Quark;
-	font-weight: bold;
+	font-weight: normal;
 	text-decoration: none;
 }
 
@@ -28,11 +23,21 @@ form {
   width: 100%;
   height: 41px;
   position: relative;
-  border: 1px solid black;
-  background: white;
+
+
+
+  background-image: -moz-linear-gradient( 90deg, rgb(30,30,30) 0%, rgb(0,0,0) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgb(30,30,30) 0%, rgb(0,0,0) 100%);
+  background-image: -ms-linear-gradient( 90deg, rgb(30,30,30) 0%, rgb(0,0,0) 100%);
+  box-shadow: 0.5px 0.866px 0px 0px rgba(255, 255, 255, 0.42), inset 1px 1.732px 1px 0px rgba(0, 0, 0, 0.42);
+
+
+
+
 }
 
 #footer_field_text{
+  color: white;
   border: 0;
   width: 75%;
   height: 100%;
@@ -41,7 +46,7 @@ form {
   background: transparent;
   margin: 0 .5em 0 0;
   padding-right: 25%;
-  
+  padding-left: 5%;
 }
 
 #footer_button{
@@ -54,6 +59,7 @@ form {
   margin: 0;
   right: 4px;
   top: 4px;
+    border-radius: 3px;
 }
 
 /*Header*/
@@ -73,9 +79,25 @@ background-position: center;
 width: 960px;
 margin: auto;
 }
+
+.bodyTag img{
+
+
+
+
+}
+.lineBt{
+    position: relative;
+display: block;
+background-color: #75bf46;
+    width: 100%;
+    height: 3px;
+
+}
+    
 #logo{
 float: left;
-margin-right: 70px;
+margin-right: 50px;
 }
 #menu_tab{
 float: left;
@@ -106,8 +128,8 @@ font-size: 12pt
 width: 20px;
 height: 20px;
 position: absolute;
-margin-left: 895px;
-top: 47px;
+margin-left: 930px;
+top: 43px;
 
 }
 #header_topic{
@@ -127,44 +149,32 @@ height: 137px;
 	margin-top: 8px;
 }
 #header_button{
-	width: 164px;
+	width: 198px;
 	//height: 44px;
 	background-color: #75bf46;
 	border-radius: 8px;
-	margin-left: 162px;
-	margin-top: 20px;
+	margin-left: 150px;
+	margin-top: 5px;
 	padding-top: 44px;
 }
 #header_button_border{
-	width: 164px;
+	width: 198px;
 	height: 7px;
 	background-color: #68b53c;
 	border-radius: 8px;
 }
-#header_button_text{
+#header_button_text a{
 	position: absolute;
 	font-family: Quark;
 	font-weight: lighter;
-	color: #ffffff;
+	color: white;
 	margin-top: 169px;
 margin-left: 197px;
 font-size: 16pt;
 }
 
-#header_button_text a{
-color: #ffffff;
 
-}
-#menu_button_tab{
-	margin-top: 83px;
-	height: 83px;
-}
-#menu_button{
-	float: left;
-	height: 77px;
-	width: 240px;
-	background-image: url(/COZY/app/webroot/img/menu1.jpg)
-}
+
 #menu_button_name{
 	color: white;
 	font-size:31pt;
@@ -175,6 +185,7 @@ color: #ffffff;
 }
 /*Footer*/
 #footer_border{
+   
 	height: 1px;
 	width: 100%;
 	//min-width: 1240px;
@@ -183,19 +194,20 @@ color: #ffffff;
 #footer_bg{
 	width: 100%;
 	//min-width: 1240px;
-	height: 256px;
+	height: 192px;
 	background-color: #151515;
 }
 #footer_big_block{
-	//margin-left: 280px;
+	margin-left: 280px;
 	width: 960px;
 	margin: auto
 }
-#footer_block{
+#footer_block {
 	width: 300px;
 	float: left;
-    padding: 10px;
-   
+    margin: 10px
+    
+    
 }
 #footer_topic{
 	font-family: Quark;
@@ -203,13 +215,22 @@ color: #ffffff;
 	margin-top: 10px;
 	color: #798489;
 	font-size: 12pt;
+    
 }
-#footer_detail{
+#footer_detail ,a{
 	font-family: Quark;
 	font-weight: lighter;
-	font-size: 12pt;
+	font-size: 13pt;
 	margin-top: 10px;
 	color: #9fb9c7;
+}
+
+footer_detail ,a:hover{
+	font-family: Quark;
+	font-weight: lighter;
+	font-size: 13pt;
+	margin-top: 10px;
+	color: #68b53c;
 }
 
 /*for cozy_detail_layout*/
@@ -218,7 +239,7 @@ color: #ffffff;
 	height: 140px;
 	width: 960px;
 	margin: auto;
-	margin-top: 20px;
+	margin-top: 36px;
 }
 #detail_menu_topic{
 	width: 100%;
@@ -248,30 +269,20 @@ height: 68px;
 .field_color{
 	background-color: #75bf46;
 }
-.option_text_color{
+.option_text_color {
 	color: white;
 }
 #option_icon{
 	float: left;
 	padding-right: 15px;
 }
-#option_detail{
-	font-size: 13pt;
-}
-
 #option_detail a{
-	color: #ffffff;
+	font-size: 20pt;
+    color: #fff;
 }
 
-#footer_detail a{
-color: #798489;
-font-size: 10pt;
-}
 
-#footer_detail a{
-color: #798489;
-font-size: 10pt;
-}
+
 
 
 

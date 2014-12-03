@@ -1,9 +1,14 @@
 #about_us_body1{
-	height: 1345px;
+	height: 1070px;
 	background-color: #1e1e1e;
+       
+    
+  
 }
 #about_us_body2{
-	height: 400px;
+	height: 500px;
+    font-family: "tahoma";
+    font-size: 10pt;
 }
 #about_us_pic_topic{
 color: #ffffff;
@@ -15,6 +20,8 @@ color: #ffffff;
 #about_us_block{
 	float: left;
 	width: 460px;
+        font-family: "tahoma";
+    font-size: 10pt;
    
 }
 #about_us_pic_detail {
@@ -46,11 +53,11 @@ margin-left: 50px;
 #about_us_detail_topic{
 
     width: 400px;
-  font-size:28pt;
+  font-size:27pt;
   font-family: "Quark";
   color: rgb(118, 191, 69);
   font-weight: bold;
-
+margin: auto;
   line-height: 1.2;
 
 }

@@ -1,49 +1,47 @@
 
-   
-
 <div id='home_body1'>
  <div id='content_layout'>
 	<div id='home_block1'>
         <div id='menu_button_tab'>
 			<div id='menu_button'>
-				<div id='menu_button_name'>บ้านเดี่ยว</div>
-			</div>
-			<div id='menu_button'>
-				<div id='menu_button_name'>คอนโดมีเนี่ยม</div>				
-			</div>
-			<div id='menu_button'>
 				<div id='menu_button_name'>โฮมออฟฟิศ</div>
 			</div>
 			<div id='menu_button'>
-				<div id='menu_button_name'>อื่นๆ</div>
+				<div id='menu_button_name'>บ้านเดี่ยว</div>				
+			</div>
+			<div id='menu_button'>
+				<div id='menu_button_name'>บ้านแฝด</div>
+			</div>
+			<div id='menu_button'>
+				<div id='menu_button_name'>คอนโดมิเนียม</div>
 			</div>											
 		</div>
-		<div id='home_body1_image_tab'>
+	<div id='home_body1_image_tab'>
 			<div id='home_body1_image'>
-			<?php echo $this->Html->image('home_pic1.png'); ?>
+			<?php echo $this->Html->image('02R.jpg'); ?>
 			</div>
 			<div id='home_body1_image'>
-			<?php echo $this->Html->image('condo.jpg'); ?>
+			<?php echo $this->Html->image('home_pic1.png'); ?>
 			</div>
 			<div id='home_body1_image'>
 			<?php echo $this->Html->image('REAL01_01.jpg'); ?>
 			</div>
 			<div id='home_body1_image'>
-			<?php echo $this->Html->image('home_pic1.png'); ?>
+			<?php echo $this->Html->image('condo.jpg'); ?>
 			</div>
 		</div>
 		<div id='home_body1_text_field'>
 			<div id='home_body1_text'>
-				“บ้านอยู่สบาย สไตล์คนรุ่นใหม่”
+				“ ฉีกกฎคำว่าบ้าน ”
 			</div>
-			<div id='home_body1_text'>
-				“คอนโดอยู่สบาย สไตล์คนรุ่นใหม่”
+			<div id='home_body1_text'style="margin-top:5px">
+				“ บ้านอยู่สบาย <br>สไตล์คนรุ่นใหม่ ”
 			</div>
-			<div id='home_body1_text'>
-				“ฉีกกฏคำว่า บ้าน”
+			<div id='home_body1_text'style="margin-top:5px">
+				“ บ้านอยู่สบาย<br> สไตล์คนรุ่นใหม่ ”
 			</div>
-			<div id='home_body1_text'>
-				“ ฉีกกฏคำว่า บ้าน ”
+			<div id='home_body1_text' style="margin-top:5px">
+				“คอนโดอยู่สบาย<br>สไตล์คนรุ่นใหม่”
 			</div>
 		</div>
 		<div id='home_body1_button_field'>
@@ -85,11 +83,14 @@
 
 <div id='home_body2'>
  <div id='content_layout'>
-     <a class="youtube" href="https://www.youtube.com/watch?v=3STwo2ZGES8" title="jQuery YouTube Popup Player Plugin TEST">
-         
-     <?php echo $this->Html->image('body2.jpg'); ?></a>
+<div class="bodyTag">
+   
+	<?php echo $this->Html->image('bodycontent.jpg'); ?><?php echo $this->Html->image('body2.jpg'); ?>
+     
+</div>
+  
  </div>
-</div><!-- end #home_body2 -->
+</div>  <div class="lineBt"></div><!-- end #home_body2 -->
 <div id='home_body3'>
  <div id='content_layout'>
 	<div id='block1_body3'>
@@ -134,11 +135,11 @@
 							'action' => 'Project'
 						)) ?></div>
 		</div><!-- end #topic_body3 -->	
-			<div id='content_body3_field'>
+<div id='content_body3_field'>
 			<div id='content_body3'>
 				<?php echo $this->Html->image('project1.jpg'); ?>
 				<span id='content_topic'>
-				COZY @ SATRIWITTHAYA 2 SOI 9
+				COZY @ <br>SATRIWITTHAYA 9
 				</span>
 				<div id='content_border'></div>
 				<div id='content_detail'>
@@ -153,29 +154,31 @@
 				?>
 				</div>
 			</div>
-		<div id='content_body3'>
-				<?php echo $this->Html->image('project1.jpg'); ?>
+
+	<div id='content_body3'>
+				<?php echo $this->Html->image('home.jpg'); ?>
 				<span id='content_topic'>
-				COZY @ CHOKCHAI 4 <br> SOI 30
+				COZY @ <br/>SATRIWITTHAYA 9  
 				</span>
 				<div id='content_border'></div>
 				<div id='content_detail'>
-				โฮมออฟฟิศ 3 ชั้น 3 นอน 3 น้ำ			
-				<br/><br/>
-				เริ่มต้น 4.39 ลบ. (12 หลัง) 
-				<br/><br/>
+                    
+				บ้านเดี่ยว 2 ชั้น 3 นอน 3 น้ำ
+				<br/>
+                เริ่มต้น 6.39 ลบ. (2 หลัง) 
+                       <br/>  <br/>
 				<?php
 					echo $this->Html->link('รายละเอียดโครงการ',array(
-						'action' => 'DetailDesc',1
+						'action' => 'DetailDesc',10
 					));
 				?>
 				</div>
 			</div>
-
 		<div id='content_body3'>
 				<?php echo $this->Html->image('home.jpg'); ?>
 				<span id='content_topic'>
-				COZY @ NAKNIWAT 37 1-4
+				COZY @ <br>
+                NAKNIWAT 37 1-4
 				</span>
 				<div id='content_border'></div>
 				<div id='content_detail'>
@@ -201,12 +204,13 @@
 			</div>
 			<div id='topic_body3_text'>NEWS & EVENTS</div>
 			<div id='topic_body3_text2'>
-            <?php echo $this->Html->link('VIEW ALL EVENTS>>',array(
-							'action' => 'Event'
+            <?php echo $this->Html->link('VIEW ALL EVENT>>',array(
+							'action' => ''
 						)) ?>		
 				</div>
 		</div><!-- end #topic_body3 -->		
-		<div id='content_body3_field'>
+	<!--	<div id='content_body3_field'>
+
 			<div id='content_body3'>
 				<?php echo $this->Html->image('event.jpg'); ?>
 				<span id='content_topic'>
@@ -226,7 +230,6 @@
 				?>
 				</div>
 			</div>
-<!--
 			<div id='content_body3'>
 				<?php echo $this->Html->image('event.jpg'); ?>
 				<span id='content_topic'>
@@ -269,9 +272,9 @@
 
 				?>
 				</div>
-			</div>
+
+			</div>-->
 		
--->
 		</div>
 		<div id='border1_body3'></div>
 		<div id='border2_body3'></div>
@@ -338,14 +341,10 @@
 </div><!-- home_body -->
 
  
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-<link type="text/css"
-		href="http://ajax.googleapis.com/ajax/libs/jqueryui/1/themes/redmond/jquery-ui.css" rel="stylesheet" />
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1/jquery-ui.min.js"></script>
-<script type="text/javascript" src="jquery.youtubepopup.min.js"></script>
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDUJr_4AnWJJ_85vEyD1qRMljK9CSsAev4"></script>
 
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDUJr_4AnWJJ_85vEyD1qRMljK9CSsAev4"></script>
+<script src="js/main.js"></script>
         <script type="text/javascript">
             // When the window has finished loading create our google map below
             google.maps.event.addDomListener(window, 'load', init);
@@ -373,9 +372,3 @@
                 var map = new google.maps.Map(mapElement, mapOptions);
             }
         </script>
-     
-      <script type="text/javascript">
-		$(function () {
-			$("a.youtube").YouTubePopup({ autoplay: 0 });
-		});
-    </script>

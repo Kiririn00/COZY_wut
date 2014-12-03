@@ -33,10 +33,17 @@ class UIController extends AppController {
 	public function Detail($project_name = null){
 		//Project Detail Page
 
-		$project_list = array('COZY @ SATRIWITTHAYA 2 SOI 9','COZY @ CHOKCHAI 4 SOI 30','COZY @ NAKNIWAT 37 1-4','COZY @ SATRIWITTHAYA 2 SOI 29 #2','COZY @ SANGKOMSONGKROR 16',
-'COZY @ SATRIWITTHAYA 2 SOI 29-4','COZY @ SATRIWITTHAYA 2 SOI 10','COZY @ SATRIWITTHAYA 2 SOI 29 #1','COZY @ CHOKCHAI 4 
-SOI 78','COZY @ NAKNIWAT 37');
-
+		$project_list = array('COZY @ SATRIWITTHAYA 9',
+            'COZY @ CHOKCHAI 4 SOI 84',
+            'COZY @ NAKNIWAT 37 1-4',
+            'COZY @ SATRIWITTHAYA 29 #2',
+            'COZY @ SANGKOMSONGKROR 16',
+			'COZY @ SATRIWITTHAYA 29-4',
+            'COZY @ SATRIWITTHAYA 10',
+            'COZY @ SATRIWITTHAYA 29 #1',
+            'COZY @ CHOKCHAI 4 SOI 78',
+            'COZY @ NAKNIWAT 37',
+            'COZY @ SATRIWITTHAYA 9');
 		if($project_name==0)
 		{
 			$this->set('project_name',$project_list[0]);
@@ -92,16 +99,16 @@ SOI 78','COZY @ NAKNIWAT 37');
 			$this->set('project_code',$project_name);
 			
 		}
-		else if($project_name==11){
-			$this->set('project_name',$project_list[11]);
-			$this->set('project_code',$project_name);
-			
-		}
-		else if($project_name==12){
-			$this->set('project_name',$project_list[12]);
-			$this->set('project_code',$project_name);
-			
-		}
+//		else if($project_name==11){
+//			$this->set('project_name',$project_list[11]);
+//			$this->set('project_code',$project_name);
+//			
+//		}
+//		else if($project_name==12){
+//			$this->set('project_name',$project_list[12]);
+//			$this->set('project_code',$project_name);
+//			
+//		}
 
 
 
@@ -111,9 +118,18 @@ SOI 78','COZY @ NAKNIWAT 37');
 	public function DetailDesc($project_name = null){
 		
 	
-		$project_list = array('COZY @ SATRIWITTHAYA 2 SOI 9','COZY @ CHOKCHAI 4 SOI 30','COZY @ NAKNIWAT 37 1-4','COZY @ SATRIWITTHAYA 2 SOI 29 #2','COZY @ SANGKOMSONGKROR 16',
-'COZY @ SATRIWITTHAYA 2 SOI 29-4','COZY @ SATRIWITTHAYA 2 SOI 10','COZY @ SATRIWITTHAYA 2 SOI 29 #1','COZY @ CHOKCHAI 4 
-SOI 78','COZY @ NAKNIWAT 37');
+		$project_list = array(
+            'COZY @ SATRIWITTHAYA 9',
+            'COZY @ CHOKCHAI 4 SOI 84',
+            'COZY @ NAKNIWAT 37 1-4',
+            'COZY @ SATRIWITTHAYA 29 #2',
+            'COZY @ SANGKOMSONGKROR 16',
+			'COZY @ SATRIWITTHAYA 29-4',
+            'COZY @ SATRIWITTHAYA 10',
+            'COZY @ SATRIWITTHAYA 29 #1',
+            'COZY @ CHOKCHAI 4 SOI 78',
+            'COZY @ NAKNIWAT 37',
+            'COZY @ SATRIWITTHAYA 9');
 		if($project_name==0)
 		{
 			$this->set('project_name',$project_list[0]);
@@ -169,16 +185,16 @@ SOI 78','COZY @ NAKNIWAT 37');
 			$this->set('project_code',$project_name);
 			
 		}
-		else if($project_name==11){
-			$this->set('project_name',$project_list[11]);
-			$this->set('project_code',$project_name);
-			
-		}
-		else if($project_name==12){
-			$this->set('project_name',$project_list[12]);
-			$this->set('project_code',$project_name);
-			
-		}
+//		else if($project_name==11){
+//			$this->set('project_name',$project_list[11]);
+//			$this->set('project_code',$project_name);
+//			
+//		}
+//		else if($project_name==12){
+//			$this->set('project_name',$project_list[12]);
+//			$this->set('project_code',$project_name);
+//			
+//		}
 
 
 		$this->layout = 'cozy_detail_desc_layout';
@@ -187,8 +203,18 @@ SOI 78','COZY @ NAKNIWAT 37');
 	public function DetailImage($project_name = null){
 		
 		
-		$project_list = array('COZY @ SATRIWITTHAYA 2 SOI 9','COZY @ CHOKCHAI 4 SOI 30','COZY @ NAKNIWAT 37 1-4','COZY @ SATRIWITTHAYA 2 SOI 29 #2','COZY @ SANGKOMSONGKROR 16',
-			'COZY @ SATRIWITTHAYA 2 SOI 29-4','COZY @ SATRIWITTHAYA 2 SOI 10','COZY @ SATRIWITTHAYA 2 SOI 29 #1','COZY @ CHOKCHAI 4 SOI 78','COZY @ NAKNIWAT 37');
+		$project_list = array(
+            'COZY @ SATRIWITTHAYA 9',
+            'COZY @ CHOKCHAI 4 SOI 84',
+            'COZY @ NAKNIWAT 37 1-4',
+            'COZY @ SATRIWITTHAYA 29 #2',
+            'COZY @ SANGKOMSONGKROR 16',
+			'COZY @ SATRIWITTHAYA 29-4',
+            'COZY @ SATRIWITTHAYA 10',
+            'COZY @ SATRIWITTHAYA 29 #1',
+            'COZY @ CHOKCHAI 4 SOI 78',
+            'COZY @ NAKNIWAT 37',
+            'COZY @ SATRIWITTHAYA 9');
 		
 		if($project_name==0)
 		{
@@ -266,7 +292,14 @@ SOI 78','COZY @ NAKNIWAT 37');
 			
 			
 		}
-
+        else if($project_name==10){
+			$this->set('project_name',$project_list[10]);
+			$this->set('project_code',$project_name);
+			$this->layout = 'cozy_detail_image_layout';
+			$this ->render('detail_image11');
+			
+			
+		}
 		$this->layout = 'cozy_detail_image_layout';
 	}
 	public function EventDetail($project_name = null){

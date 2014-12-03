@@ -1,20 +1,12 @@
 #event_body1{
 	background-color: #202020;
-	height: 1700px;
+	height: 400px;
 }
 #about_us_block{
 	float: left;
 	width: 480px;
-   
 }
-
-
 #event_block{
 	width: 320px;
 	float: left;
-}
-
-#event_body{
-height: 1350px;
-
 }

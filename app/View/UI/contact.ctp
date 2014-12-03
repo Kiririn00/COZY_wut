@@ -12,17 +12,17 @@
 
 TEL : 090-556-3645<br>
 
-ฝ่ายขาย : 08-7990-7813<br><br>
+ฝ่ายขาย : 090-556-3645<br><br>
 
 Bangkok New Trend Development Co., Ltd.<br><br>
 
-23 Ladprao 71 Ladprao Rd.,<br>
-Wang Thong Lang, Bangkok 10310<br>
+713/12-15 Praditmanuthum Rd.,<br>
+Saphansong,Wang Thong Lang, Bangkok<br>
 
 Telephone: 090-556-3645<br>
 
 
-Sale : 08-7990-7813
+Sale : 090-556-3645
 		</div>
 	</div>
 	<div id='contact_block2'>
@@ -56,8 +56,8 @@ Sale : 08-7990-7813
 	<div id='contact_map_field'>
 		
 		<div id="topic1_body3" class='contact_topic_field'>
-			<div id="topic_body3_text">แผนที่เดินทาง</div>
-	
+		
+		<div id="topic_body3_text">แผนที่เดินทาง</div>
 			<div id="map_body_contact">
                  
 				
