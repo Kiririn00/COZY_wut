@@ -28,7 +28,11 @@
 			</div>
 
 			<div id='select_form_option'>
+
 			<?php
+			
+			echo $this->Form->create();			
+
 			echo $this->Form->input('field', array(
    			 'options' => array('บ้านเดี่ยว', 'คอนโดมีเนียม', 'ทาวโฮมส์', 'อื่นๆ'),
 			 'empty' => 'ประเภทโครงการ',
@@ -48,16 +52,18 @@
 			 'empty' => 'ราคาเริ่มต้น',
 			 'label' => false
 		 	));
-			
 			?>
+
 			</div>
 			<?php
 				echo $this->Form->input('ค้นหา',array(
-				'type' => 'button',
+				'type' => 'submit',
 				'label' => false,
-				'id' => 'select_form_button'
+				'id' => 'select_form_button',
+				'action' => 'Project'
 			));
 
+			echo $this->Form->end();
 			?>		
 		</div><!-- end #select_form -->
 	</div>

@@ -48,7 +48,7 @@
 			<div id='home_body1_button'>
 				<div id='home_body1_button_text' class="linktext">
                     <?php echo $this->Html->link('เข้าชมโครงการ',array(
-							'action' => 'Project'
+							'action' => 'Project','HomeOffice'
 						)) ?></div>
 			</div>			
 		</div>
@@ -56,7 +56,7 @@
 			<div id='home_body1_button'>
 				<div id='home_body1_button_text' class="linktext">
                     <?php echo $this->Html->link('เข้าชมโครงการ',array(
-							'action' => 'Project'
+							'action' => 'Project','SingleHouse'
 						)) ?></div>
 			</div>			
 		</div>
@@ -64,7 +64,7 @@
 			<div id='home_body1_button'>
 				<div id='home_body1_button_text' class="linktext">
                     <?php echo $this->Html->link('เข้าชมโครงการ',array(
-							'action' => 'Project'
+							'action' => 'Project','MultipleHouse'
 						)) ?></div>
 			</div>			
 		</div>
@@ -72,7 +72,7 @@
 			<div id='home_body1_button'>
 				<div id='home_body1_button_text' class="linktext">
                     <?php echo $this->Html->link('เข้าชมโครงการ',array(
-							'action' => 'Project'
+							'action' => 'Project','Condo'
 						)) ?></div>
 			</div>			
 		</div>

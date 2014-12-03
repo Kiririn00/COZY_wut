@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Quark;
+    src: url(/COZY_wut/app/webroot/files/Quark-Light.otf);
+}
+
 body{
 	margin: 0;
 	font-family: Quark;
@@ -24,14 +29,10 @@ form {
   height: 41px;
   position: relative;
 
-
-
   background-image: -moz-linear-gradient( 90deg, rgb(30,30,30) 0%, rgb(0,0,0) 100%);
   background-image: -webkit-linear-gradient( 90deg, rgb(30,30,30) 0%, rgb(0,0,0) 100%);
   background-image: -ms-linear-gradient( 90deg, rgb(30,30,30) 0%, rgb(0,0,0) 100%);
   box-shadow: 0.5px 0.866px 0px 0px rgba(255, 255, 255, 0.42), inset 1px 1.732px 1px 0px rgba(0, 0, 0, 0.42);
-
-
 
 
 }
