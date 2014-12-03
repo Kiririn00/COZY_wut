@@ -8,7 +8,7 @@
 			<div id="icon">
 				<?php echo $this->Html->image('icon.png'); ?>			
 			</div>
-			<div id="topic_body3_text">NEWS & EVENT</div>
+			<div id="topic_body3_text">NEWS & EVENTS</div>
 	</div>
 <div id="event_body">
 	<div id='event_block'>

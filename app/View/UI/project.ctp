@@ -5,7 +5,7 @@
 			<div id='icon'>
 				<?php echo $this->Html->image('icon.png'); ?>				
 			</div>
-			<div id='topic_body3_text'>LASTEST PROJECT</div>
+			<div id='topic_body3_text'>LASTEST PROJECTS</div>
 		</div><!-- end #topic_body3 -->
 
 		<div id='select_form'>
@@ -16,7 +16,7 @@
 			<div id='select_form_option'>
 			<?php
 			echo $this->Form->input('field', array(
-   			 'options' => array('บ้านเดี่ยว', 'คอนโดมีเนียม', 'ทาวโฮมส์', 'อื่นๆ'),
+   			 'options' => array('บ้านเดี่ยว', 'โฮมออฟฟิศ', 'คอนโดมิเนียม'),
 			 'empty' => 'ประเภทโครงการ',
 			 'label' => false
 			));

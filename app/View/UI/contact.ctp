@@ -10,8 +10,7 @@
 เลขที่ 713/12-15 ถนนประดิษฐ์มนูธรรม <br>
 แขวงสะพานสอง เขตวังทองหลาง  กรุงเทพมหานคร<br>
 
-TEL : +66 090-556-3645<br>
-แฟ็กซ์: +66 2538 5912<br>
+TEL : 090-556-3645<br>
 
 ฝ่ายขาย : 08-7990-7813<br><br>
 
@@ -20,8 +19,7 @@ Bangkok New Trend Development Co., Ltd.<br><br>
 23 Ladprao 71 Ladprao Rd.,<br>
 Wang Thong Lang, Bangkok 10310<br>
 
-Telephone: +66 090-556-3645<br>
-Fax: +66 2538 5912<br>
+Telephone: 090-556-3645<br>
 
 
 Sale : 08-7990-7813
@@ -43,11 +41,7 @@ Sale : 08-7990-7813
 				<br/>
 				Your Phone Number
 				<br/>
-				<input id='contactform' type='text' placeholder='example: John Doe' />
-				<br/>
-				Your Phone Number
-				<br/>
-				<input  id='contactform' type='text' placeholder='example: John Doe' />
+				<input id='contactform' type='text' placeholder='example: 083-333-3333' />
 				<br/>
 				Your Message
 				<br/>

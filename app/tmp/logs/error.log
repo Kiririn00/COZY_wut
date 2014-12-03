@@ -25450,3 +25450,531 @@ Stack Trace:
 #2 /home/bkknewtr/domains/bkknewtrend.com/public_html/COZY_wut/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #3 /home/bkknewtr/domains/bkknewtrend.com/public_html/COZY_wut/index.php(41): require('/home/bkknewtr/...')
 #4 {main}
+2014-11-30 20:57:31 Error: [MissingActionException] Action UIController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UIController',
+  'action' => 'js',
+)
+Request URL: /COZY_wut/index.php/UI/js/modernizr.js
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UIController), Object(CakeRequest))
+#2 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/index.php(41): require('/Applications/X...')
+#4 {main}
+2014-11-30 20:57:31 Error: [MissingActionException] Action UIController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'UIController',
+  'action' => 'css',
+)
+Request URL: /COZY_wut/index.php/UI/css/reset.css
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UIController), Object(CakeRequest))
+#2 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/index.php(41): require('/Applications/X...')
+#4 {main}
+2014-11-30 20:57:31 Error: [MissingActionException] Action UIController::jquery.youtubepopup.min.js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UIController',
+  'action' => 'jquery.youtubepopup.min.js',
+)
+Request URL: /COZY_wut/index.php/UI/jquery.youtubepopup.min.js
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UIController), Object(CakeRequest))
+#2 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/index.php(41): require('/Applications/X...')
+#4 {main}
+2014-11-30 20:57:31 Error: [MissingActionException] Action UIController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'UIController',
+  'action' => 'css',
+)
+Request URL: /COZY_wut/index.php/UI/css/style.css
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UIController), Object(CakeRequest))
+#2 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/index.php(41): require('/Applications/X...')
+#4 {main}
+2014-11-30 20:57:50 Error: [MissingActionException] Action UIController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UIController',
+  'action' => 'js',
+)
+Request URL: /COZY_wut/index.php/UI/js/modernizr.js
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UIController), Object(CakeRequest))
+#2 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/index.php(41): require('/Applications/X...')
+#4 {main}
+2014-11-30 20:57:50 Error: [MissingActionException] Action UIController::jquery.youtubepopup.min.js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UIController',
+  'action' => 'jquery.youtubepopup.min.js',
+)
+Request URL: /COZY_wut/index.php/UI/jquery.youtubepopup.min.js
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UIController), Object(CakeRequest))
+#2 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/index.php(41): require('/Applications/X...')
+#4 {main}
+2014-11-30 20:57:50 Error: [MissingActionException] Action UIController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'UIController',
+  'action' => 'css',
+)
+Request URL: /COZY_wut/index.php/UI/css/style.css
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UIController), Object(CakeRequest))
+#2 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/index.php(41): require('/Applications/X...')
+#4 {main}
+2014-11-30 20:57:50 Error: [MissingActionException] Action UIController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'UIController',
+  'action' => 'css',
+)
+Request URL: /COZY_wut/index.php/UI/css/reset.css
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UIController), Object(CakeRequest))
+#2 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/index.php(41): require('/Applications/X...')
+#4 {main}
+2014-11-30 21:14:47 Error: [MissingActionException] Action UIController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UIController',
+  'action' => 'js',
+)
+Request URL: /COZY_wut/index.php/UI/js/modernizr.js
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UIController), Object(CakeRequest))
+#2 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/index.php(41): require('/Applications/X...')
+#4 {main}
+2014-11-30 21:14:47 Error: [MissingActionException] Action UIController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'UIController',
+  'action' => 'css',
+)
+Request URL: /COZY_wut/index.php/UI/css/reset.css
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UIController), Object(CakeRequest))
+#2 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/index.php(41): require('/Applications/X...')
+#4 {main}
+2014-11-30 21:14:47 Error: [MissingActionException] Action UIController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'UIController',
+  'action' => 'css',
+)
+Request URL: /COZY_wut/index.php/UI/css/style.css
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UIController), Object(CakeRequest))
+#2 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/index.php(41): require('/Applications/X...')
+#4 {main}
+2014-11-30 21:14:47 Error: [MissingActionException] Action UIController::jquery.youtubepopup.min.js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UIController',
+  'action' => 'jquery.youtubepopup.min.js',
+)
+Request URL: /COZY_wut/index.php/UI/jquery.youtubepopup.min.js
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UIController), Object(CakeRequest))
+#2 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/index.php(41): require('/Applications/X...')
+#4 {main}
+2014-11-30 21:27:31 Error: [MissingActionException] Action UIController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'UIController',
+  'action' => 'css',
+)
+Request URL: /COZY_wut/index.php/UI/css/reset.css
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UIController), Object(CakeRequest))
+#2 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/index.php(41): require('/Applications/X...')
+#4 {main}
+2014-11-30 21:27:31 Error: [MissingActionException] Action UIController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'UIController',
+  'action' => 'css',
+)
+Request URL: /COZY_wut/index.php/UI/css/style.css
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UIController), Object(CakeRequest))
+#2 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/index.php(41): require('/Applications/X...')
+#4 {main}
+2014-11-30 21:27:31 Error: [MissingActionException] Action UIController::jquery.youtubepopup.min.js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UIController',
+  'action' => 'jquery.youtubepopup.min.js',
+)
+Request URL: /COZY_wut/index.php/UI/jquery.youtubepopup.min.js
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UIController), Object(CakeRequest))
+#2 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/index.php(41): require('/Applications/X...')
+#4 {main}
+2014-11-30 21:27:31 Error: [MissingActionException] Action UIController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UIController',
+  'action' => 'js',
+)
+Request URL: /COZY_wut/index.php/UI/js/modernizr.js
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UIController), Object(CakeRequest))
+#2 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/index.php(41): require('/Applications/X...')
+#4 {main}
+2014-11-30 21:28:11 Error: [MissingActionException] Action UIController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'UIController',
+  'action' => 'css',
+)
+Request URL: /COZY_wut/index.php/UI/css/style.css
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UIController), Object(CakeRequest))
+#2 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/index.php(41): require('/Applications/X...')
+#4 {main}
+2014-11-30 21:28:11 Error: [MissingActionException] Action UIController::jquery.youtubepopup.min.js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UIController',
+  'action' => 'jquery.youtubepopup.min.js',
+)
+Request URL: /COZY_wut/index.php/UI/jquery.youtubepopup.min.js
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UIController), Object(CakeRequest))
+#2 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/index.php(41): require('/Applications/X...')
+#4 {main}
+2014-11-30 21:28:11 Error: [MissingActionException] Action UIController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'UIController',
+  'action' => 'css',
+)
+Request URL: /COZY_wut/index.php/UI/css/reset.css
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UIController), Object(CakeRequest))
+#2 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/index.php(41): require('/Applications/X...')
+#4 {main}
+2014-11-30 21:28:11 Error: [MissingActionException] Action UIController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UIController',
+  'action' => 'js',
+)
+Request URL: /COZY_wut/index.php/UI/js/modernizr.js
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UIController), Object(CakeRequest))
+#2 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/index.php(41): require('/Applications/X...')
+#4 {main}
+2014-11-30 21:30:19 Error: [MissingActionException] Action UIController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UIController',
+  'action' => 'js',
+)
+Request URL: /COZY_wut/index.php/UI/js/modernizr.js
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UIController), Object(CakeRequest))
+#2 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/index.php(41): require('/Applications/X...')
+#4 {main}
+2014-11-30 21:30:19 Error: [MissingActionException] Action UIController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'UIController',
+  'action' => 'css',
+)
+Request URL: /COZY_wut/index.php/UI/css/style.css
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UIController), Object(CakeRequest))
+#2 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/index.php(41): require('/Applications/X...')
+#4 {main}
+2014-11-30 21:30:19 Error: [MissingActionException] Action UIController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'UIController',
+  'action' => 'css',
+)
+Request URL: /COZY_wut/index.php/UI/css/reset.css
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UIController), Object(CakeRequest))
+#2 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/index.php(41): require('/Applications/X...')
+#4 {main}
+2014-11-30 21:30:19 Error: [MissingActionException] Action UIController::jquery.youtubepopup.min.js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UIController',
+  'action' => 'jquery.youtubepopup.min.js',
+)
+Request URL: /COZY_wut/index.php/UI/jquery.youtubepopup.min.js
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UIController), Object(CakeRequest))
+#2 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/index.php(41): require('/Applications/X...')
+#4 {main}
+2014-11-30 21:32:38 Error: [MissingActionException] Action UIController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UIController',
+  'action' => 'js',
+)
+Request URL: /COZY_wut/index.php/UI/js/modernizr.js
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UIController), Object(CakeRequest))
+#2 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/index.php(41): require('/Applications/X...')
+#4 {main}
+2014-11-30 21:32:38 Error: [MissingActionException] Action UIController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'UIController',
+  'action' => 'css',
+)
+Request URL: /COZY_wut/index.php/UI/css/style.css
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UIController), Object(CakeRequest))
+#2 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/index.php(41): require('/Applications/X...')
+#4 {main}
+2014-11-30 21:32:38 Error: [MissingActionException] Action UIController::jquery.youtubepopup.min.js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UIController',
+  'action' => 'jquery.youtubepopup.min.js',
+)
+Request URL: /COZY_wut/index.php/UI/jquery.youtubepopup.min.js
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UIController), Object(CakeRequest))
+#2 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/index.php(41): require('/Applications/X...')
+#4 {main}
+2014-11-30 21:32:38 Error: [MissingActionException] Action UIController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'UIController',
+  'action' => 'css',
+)
+Request URL: /COZY_wut/index.php/UI/css/reset.css
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UIController), Object(CakeRequest))
+#2 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/index.php(41): require('/Applications/X...')
+#4 {main}
+2014-11-30 21:52:30 Error: [MissingActionException] Action UIController::jquery.youtubepopup.min.js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UIController',
+  'action' => 'jquery.youtubepopup.min.js',
+)
+Request URL: /COZY_wut/index.php/UI/jquery.youtubepopup.min.js
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UIController), Object(CakeRequest))
+#2 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/index.php(41): require('/Applications/X...')
+#4 {main}
+2014-11-30 21:52:30 Error: [MissingActionException] Action UIController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'UIController',
+  'action' => 'css',
+)
+Request URL: /COZY_wut/index.php/UI/css/style.css
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UIController), Object(CakeRequest))
+#2 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/index.php(41): require('/Applications/X...')
+#4 {main}
+2014-11-30 21:52:30 Error: [MissingActionException] Action UIController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'UIController',
+  'action' => 'css',
+)
+Request URL: /COZY_wut/index.php/UI/css/reset.css
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UIController), Object(CakeRequest))
+#2 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/index.php(41): require('/Applications/X...')
+#4 {main}
+2014-11-30 21:52:30 Error: [MissingActionException] Action UIController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UIController',
+  'action' => 'js',
+)
+Request URL: /COZY_wut/index.php/UI/js/modernizr.js
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UIController), Object(CakeRequest))
+#2 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/index.php(41): require('/Applications/X...')
+#4 {main}
+2014-11-30 21:55:31 Error: [MissingActionException] Action UIController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'UIController',
+  'action' => 'css',
+)
+Request URL: /COZY_wut/index.php/UI/css/style.css
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UIController), Object(CakeRequest))
+#2 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/index.php(41): require('/Applications/X...')
+#4 {main}
+2014-11-30 21:55:31 Error: [MissingActionException] Action UIController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'UIController',
+  'action' => 'css',
+)
+Request URL: /COZY_wut/index.php/UI/css/reset.css
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UIController), Object(CakeRequest))
+#2 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/index.php(41): require('/Applications/X...')
+#4 {main}
+2014-11-30 21:55:31 Error: [MissingActionException] Action UIController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UIController',
+  'action' => 'js',
+)
+Request URL: /COZY_wut/index.php/UI/js/modernizr.js
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UIController), Object(CakeRequest))
+#2 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/index.php(41): require('/Applications/X...')
+#4 {main}
+2014-11-30 21:55:31 Error: [MissingActionException] Action UIController::jquery.youtubepopup.min.js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UIController',
+  'action' => 'jquery.youtubepopup.min.js',
+)
+Request URL: /COZY_wut/index.php/UI/jquery.youtubepopup.min.js
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UIController), Object(CakeRequest))
+#2 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/index.php(41): require('/Applications/X...')
+#4 {main}
+2014-11-30 22:02:38 Error: [MissingActionException] Action UIController::jquery.youtubepopup.min.js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UIController',
+  'action' => 'jquery.youtubepopup.min.js',
+)
+Request URL: /COZY_wut/index.php/UI/jquery.youtubepopup.min.js
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UIController), Object(CakeRequest))
+#2 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/index.php(41): require('/Applications/X...')
+#4 {main}
+2014-11-30 22:07:02 Error: [MissingActionException] Action UIController::jquery.youtubepopup.min.js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UIController',
+  'action' => 'jquery.youtubepopup.min.js',
+)
+Request URL: /COZY_wut/index.php/UI/jquery.youtubepopup.min.js
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UIController), Object(CakeRequest))
+#2 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/index.php(41): require('/Applications/X...')
+#4 {main}
+2014-11-30 22:11:27 Error: [MissingActionException] Action UIController::jquery.youtubepopup.min.js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UIController',
+  'action' => 'jquery.youtubepopup.min.js',
+)
+Request URL: /COZY_wut/index.php/UI/jquery.youtubepopup.min.js
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UIController), Object(CakeRequest))
+#2 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/index.php(41): require('/Applications/X...')
+#4 {main}
+2014-12-01 08:47:01 Error: [MissingActionException] Action UIController::jquery.youtubepopup.min.js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UIController',
+  'action' => 'jquery.youtubepopup.min.js',
+)
+Request URL: /COZY_wut/index.php/UI/jquery.youtubepopup.min.js
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UIController), Object(CakeRequest))
+#2 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/index.php(41): require('/Applications/X...')
+#4 {main}
+2014-12-01 08:47:04 Error: [MissingActionException] Action UIController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'UIController',
+  'action' => 'css',
+)
+Request URL: /COZY_wut/index.php/UI/css/reset.css
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UIController), Object(CakeRequest))
+#2 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/index.php(41): require('/Applications/X...')
+#4 {main}
+2014-12-01 08:47:04 Error: [MissingActionException] Action UIController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'UIController',
+  'action' => 'css',
+)
+Request URL: /COZY_wut/index.php/UI/css/style.css
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UIController), Object(CakeRequest))
+#2 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/index.php(41): require('/Applications/X...')
+#4 {main}
+2014-12-01 08:47:04 Error: [MissingActionException] Action UIController::jquery.youtubepopup.min.js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UIController',
+  'action' => 'jquery.youtubepopup.min.js',
+)
+Request URL: /COZY_wut/index.php/UI/jquery.youtubepopup.min.js
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UIController), Object(CakeRequest))
+#2 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/index.php(41): require('/Applications/X...')
+#4 {main}
+2014-12-01 08:47:04 Error: [MissingActionException] Action UIController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UIController',
+  'action' => 'js',
+)
+Request URL: /COZY_wut/index.php/UI/js/modernizr.js
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UIController), Object(CakeRequest))
+#2 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/index.php(41): require('/Applications/X...')
+#4 {main}

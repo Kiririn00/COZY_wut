@@ -37,7 +37,7 @@
 				“บ้านอยู่สบาย สไตล์คนรุ่นใหม่”
 			</div>
 			<div id='home_body1_text'>
-				“ ซื้อถูกกว่าเช่า...เราให้ครบ ”
+				“คอนโดอยู่สบาย สไตล์คนรุ่นใหม่”
 			</div>
 			<div id='home_body1_text'>
 				“ฉีกกฏคำว่า บ้าน”
@@ -128,7 +128,7 @@
 			<div id='icon'>
 				<?php echo $this->Html->image('icon.png'); ?>				
 			</div>
-			<div id='topic_body3_text'>LATEST PROJECT</div>
+			<div id='topic_body3_text'>LATEST PROJECTS</div>
 			<div id='topic_body3_text2'>
                 <?php echo $this->Html->link('VIEW ALL PRODUCTS>> ',array(
 							'action' => 'Project'
@@ -199,9 +199,9 @@
 			<div id='icon'>
 				<?php echo $this->Html->image('icon.png'); ?>				
 			</div>
-			<div id='topic_body3_text'>NEWS & EVENT</div>
+			<div id='topic_body3_text'>NEWS & EVENTS</div>
 			<div id='topic_body3_text2'>
-            <?php echo $this->Html->link('VIEW ALL EVENT>>',array(
+            <?php echo $this->Html->link('VIEW ALL EVENTS>>',array(
 							'action' => 'Event'
 						)) ?>		
 				</div>
