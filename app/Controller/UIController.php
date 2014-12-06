@@ -36,30 +36,21 @@ class UIController extends AppController {
 			
 			//debug($this->request->data);
 			if($this->request->data['project_type']==0){
-				$this->set('project_type','SingleHouse');
-			}
-			else if($this->request->data['project_type']==1){
 				$this->set('project_type','HomeOffice');
 			}
+			else if($this->request->data['project_type']==1){
+				$this->set('project_type','SingleHouse');
+			}
 			else if($this->request->data['project_type']==2){
+				$this->set('project_type','MultipleHouse');
+			}
+			else if($this->request->data['project_type']==3){
 				$this->set('project_type','Condo');
 			}
 			else{
 				$this->set('project_type',"all");
 			}
-			
-			if($this->request->data['project_location']==0){
-				$this->set('project_location','chokchai');
-			}
-			else if($this->request->data['project_location']==1){
-				$this->set('project_location','nakniwat');
-			}
-			else if($this->request->data['project_location']==2){
-				$this->set('project_location','Condo');
-			}
-			else{
-				$this->set('project_location',"all");
-			}
+
 			
 		}
 		

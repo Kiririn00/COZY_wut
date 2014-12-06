@@ -28838,3 +28838,51 @@ Stack Trace:
 #2 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #3 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/index.php(41): require('/Applications/X...')
 #4 {main}
+2014-12-04 18:42:22 Error: [MissingActionException] Action UIController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'UIController',
+  'action' => 'css',
+)
+Request URL: /COZY_wut/index.php/UI/css/reset.css
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UIController), Object(CakeRequest))
+#2 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/index.php(41): require('/Applications/X...')
+#4 {main}
+2014-12-04 18:42:22 Error: [MissingActionException] Action UIController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'UIController',
+  'action' => 'css',
+)
+Request URL: /COZY_wut/index.php/UI/css/style.css
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UIController), Object(CakeRequest))
+#2 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/index.php(41): require('/Applications/X...')
+#4 {main}
+2014-12-04 18:42:22 Error: [MissingActionException] Action UIController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UIController',
+  'action' => 'js',
+)
+Request URL: /COZY_wut/index.php/UI/js/main.js
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UIController), Object(CakeRequest))
+#2 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/index.php(41): require('/Applications/X...')
+#4 {main}
+2014-12-04 18:42:22 Error: [MissingActionException] Action UIController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UIController',
+  'action' => 'js',
+)
+Request URL: /COZY_wut/index.php/UI/js/modernizr.js
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UIController), Object(CakeRequest))
+#2 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 /Applications/XAMPP/xamppfiles/htdocs/COZY_wut/index.php(41): require('/Applications/X...')
+#4 {main}

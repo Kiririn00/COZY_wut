@@ -72,7 +72,7 @@
 			echo $this->Form->create(false, array('type' => 'file'));
 
 			echo $this->Form->input('project_type', array(
-   			 'options' => array('บ้านเดี่ยว', 'โฮมออฟฟิศ', 'คอนโดมิเนียม'),
+   			 'options' => array('โฮมออฟฟิศ','บ้านเดี่ยว','บ้านแฝด', 'คอนโดมิเนียม'),
 			 'empty' => 'ประเภทโครงการ',
 			 'label' => false
 			));
